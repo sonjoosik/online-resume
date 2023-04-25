@@ -82,6 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
+    SRE(Site Repliability Engineering)와 데이터베이스에 관심이 많은 개발자입니다. 
     Experienced software engineer with expertise in Site Reliability Engineering (SRE) and database systems. Proven track record in leading engineering teams, developing integrated SRE systems, and maintaining a global-scale Time-Series Database (TSDB) platform. Strong foundation in recommender systems from academic research. Adept at utilizing various programming languages, such as Python, Java, and C, to develop customer-focused tools. Seeking opportunities to leverage technical expertise and strategic thinking to add value to a team.
 
 experience:
