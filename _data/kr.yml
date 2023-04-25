@@ -50,7 +50,7 @@ experience:
       role: Software Engineer
       location: 경기도 성남시
       description: |
-        + RDBMS(Relational Database Management System)의 Query Compiler와 Query Executor 개발에 참여하였습니다. RDBMS가 제공하는 여러 가지 기능 중에 Stored Procedure와 HASH JOIN, HASH SORT 등을 주로 담당하였습니다. 
+        + [Tibero](https://www.tmaxsoft.com/products/tibero)라는 이름의 RDBMS(Relational Database Management System) 제품의 Query Compiler와 Query Executor 개발에 참여하였습니다. RDBMS가 제공하는 여러 가지 기능 중에 Stored Procedure와 Hash Join, Hash Sort 등을 주로 담당하였습니다. 
         + DBMS를 모니터링하는 자체 모니터링 시스템 개발 프로젝트에도 참여하였습니다. 
 
 
