@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-title: Online Resume
+title: SON JOO SIK
 url:
 baseurl:
 
@@ -16,9 +16,9 @@ analytics:
   google:                   # google analytics
   cloudflare:               # cloudflare analytics
   umami:
-    script: https://u.tarrex.com/u.js                # umami analytics script src (Replace it with your own config)
-    website_id: af636e2d-31ae-46f1-9071-82b1745143a9 # umami analytics website id (Replace it with your own config)
-    domains: tarrex.github.io,tarrex.com             # umami analytics domains (Replace it with your own config)
+    script:                 # umami analytics script src (Replace it with your own config)
+    website_id:             # umami analytics website id (Replace it with your own config)
+    domains:                # umami analytics domains (Replace it with your own config)
 
 # Style
 text_direction: ltr         # text direction, 'ltr' or 'rtl'
@@ -30,6 +30,6 @@ section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'ca
 section_align: start        # section title align, 'start', 'end' or 'center'
 section_line: dashed        # section title line, 'solid', 'dashed' or 'none'
 section_background: false   # section title backound, 'true' or 'false'
-skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
+skill_level_icon: star      # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
-site_footer: true           # show site footer, 'true' or 'false'
+site_footer: false          # show site footer, 'true' or 'false'
