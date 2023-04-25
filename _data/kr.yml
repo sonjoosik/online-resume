@@ -7,83 +7,20 @@ basic:
 
 contact:
   # meta
-  location: Republic of Korea # location
   email: sonjoosik_at_gmail.com    # email address
   website: brunch.co.kr/@sonjoosik   # site URL without schema, like example.com, will automatically prepand "https://"
-
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
-  visa:                    # passport visa
-  drivinglicense:          # driving licence
-
-  # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
-
-  # programmer
-  github:                  # username          | https://github.com/username
-  gitlab:                  # username          | https://gitlab.com/username
-  bitbucket:               # username          | https://bitbucket.com/username
-  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode:                # username          | https://leetcode.com/username
-  codeforces:              # username          | https://codeforces.com/profile/username
-  codewars:                # username          | https://www.codewars.com/users/username
-  codepen:                 # username          | https://codepen.io/username
-  tryhackme:               # username          | https://tryhackme.com/p/username
-
-  # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
-
-  # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
-
-  # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
-
-  # other cv
+  github: sonjoosik        # username          | https://github.com/username
   linkedin: sonjoosik      # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
 
-  # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
   show: true
   order: 1
   title: Profile
   description: |
-    SRE(Site Repliability Engineering)와 데이터베이스에 관심이 많은 개발자입니다. 
-    Experienced software engineer with expertise in Site Reliability Engineering (SRE) and database systems. Proven track record in leading engineering teams, developing integrated SRE systems, and maintaining a global-scale Time-Series Database (TSDB) platform. Strong foundation in recommender systems from academic research. Adept at utilizing various programming languages, such as Python, Java, and C, to develop customer-focused tools. Seeking opportunities to leverage technical expertise and strategic thinking to add value to a team.
+    2017년부터 네이버 검색에서 근무하면서 SRE(Site Repliability Engineering) 플랫폼과 대용량 시계열 데이터베이스의 구축 및 운영을 담당하고 있습니다. 2명에서 시작된 작은 개발 팀을 맡아 9명이 될 때까지 약 2년 간 리딩한 경험이 있습니다. 이후 9개월의 육아 휴직 기간을 가졌고, 복귀한 뒤에는 팀의 리더가 아닌 개별 기여자(Individual Contributor)로서 또 열심히 역할을 다하고 있습니다. 네이버에서 근무하기 전에는 티맥스에서 데이터베이스를 개발하였습니다. 그리고 대학원에서 추천시스템을 연구한 경험도 있습니다. 
+    
+    특정 기술이나 도메인보다는 문제를 해결하는 일 자체에 관심이 많습니다. 소프트웨어와 데이터를 다루는 기술을 통해 일상 생활에서 발생하는 수많은 어려운 문제들을 조금이나마 쉽게 해결할 수 있다고 믿습니다. 
 
 experience:
   show: true
@@ -95,56 +32,27 @@ experience:
   items:
     - company: NAVER Corp.
       link: 'https://www.navercorp.com/en'
-      tags: Full-time
       date: 2017.08 - Present
       role: Software Engineer
-      location: Republic of Korea
+      location: 경기도 성남시
       description: |
-        + Built and maintained a global-scale TSDB platform using VictoriaMetrics, managing tens of millions of time series on a complex tech stack
-        + Led an engineering team to develop an integrated SRE system that monitors "NAVER Search," resulting in improved system stability and reduced anomalies
-        + Presented talks and participated in media interviews showcasing team achievements and technical expertise
-          + link1
-          + link2
+        + 2022년부터는 글로벌 스케일의 대용량 TSDB(Time-series Database) 플랫폼을 구축 및 운영하고 있습니다. 오픈소스 TSDB인 [VictoriaMetrics](https://victoriametrics.com/)를 기반으로 수천 만개 ~ 수억 개의 시계열을 실시간으로 수집, 저장, 처리하고 있습니다. 자세한 내용은 아래 발표에서 소개하였습니다.
+          - [[DEVIEW 2023] VictoriaMetrics: 시계열 데이터 대혼돈의 멀티버스](https://deview.kr/2023/sessions/558)
+        + 2020년부터 약 2년 간 네이버 검색 SRE 플랫폼 개발 팀의 리더로 근무하였습니다. 2명에서 시작된 팀은 9명까지 늘어났고, 수많은 레거시 시스템과 데이터를 개편하는 프로젝트를 진행하였습니다. 자세한 이야기는 아래 발표와 인터뷰에서 공유한 적이 있습니다. 
+          - [[2021 NAVER Search Colloquium] Search Engine and SRE Platform for Global Web Search System](https://tv.naver.com/v/20312678)
+          - [[디지털데일리] [네이버 어벤저스] 검색 장애율 0%대 ‘철통방어선’은 바로 이곳](https://n.news.naver.com/article/138/0002102957)
+        + 2017년부터 약 3년 간 네이버 검색의 신뢰성을 책임지는 SRE 플랫폼을 개발하였습니다. 복잡하고 거대한 분산 시스템을 한 눈에 볼 수 있도록 시각화해주는 대시보드도 만들고 기존에는 없던 새로운 규칙을 적용한 경보 시스템도 구축했습니다. 이 기간 동안 네이버 검색의 장애 발생률은 매년 절반씩 감소하여 0%대까지 떨어졌습니다. 아래 링크에서 좀 더 자세한 이야기를 확인하실 수 있습니다. 
+          + [[DEVIEW 2018] Search Reliability Engineering (부제: 지진에도 흔들리지 않는 네이버 검색시스템)](https://deview.kr/2018/schedule/253)
 
     - company: TmaxSoft Inc.
       link: 'https://www.tmaxsoft.com'
-      tags: Full-time
       date: 2016.02 - 2017.08
       role: Software Engineer
-      location: Republic of Korea
+      location: 경기도 성남시
       description: |
-        + Developed RDBMS, working on query compiler and executor, focusing on JOIN and GROUP BY algorithms with hash-related features
-        + Contributed to the development of an RDBMS monitoring product, primarily using C and Java as programming languages
+        + RDBMS(Relational Database Management System)의 Query Compiler와 Query Executor 개발에 참여하였습니다. RDBMS가 제공하는 여러 가지 기능 중에 Stored Procedure와 HASH JOIN, HASH SORT 등을 주로 담당하였습니다. 
+        + DBMS를 모니터링하는 자체 모니터링 시스템 개발 프로젝트에도 참여하였습니다. 
 
-project:
-  show: false
-  order: 3
-  title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
-  items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
-      description: |
-        Personal project description...
-        + First
-        + Second
-
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
 
 skill:
   show: true
@@ -186,17 +94,19 @@ education:
     - institution: KAIST
       link: 'https://www.kaist.ac.kr/en/'
       date: 2014 - 2016
-      major: Computer Science
-      degree: Master
+      major: 전산학부
+      degree: 석사학위
       description: |
-        - Completed Master's degree with a thesis titled "Personalized Task Recommendation Considering Various Factors in the Internet of Things Environments"
+        - 추천시스템의 정확도를 높이거나 IoT 도메인에 적용시키는 방법을 주로 연구하였습니다. "Personalized Task Recommendation Considering Various Factors in the Internet of Things Environments"라는 논문으로 석사 학위를 받았습니다. 
 
 
-    - institution: Kyungpook National University
+    - institution: 경북대학교
       link: 'https://en.knu.ac.kr/'
       date: 2006 - 2013
-      major: Computer Science and Engineering
-      degree: Bachelor
+      major: IT대학 컴퓨터학부
+      degree: 학사학위
+      description: |
+        - 컴퓨터 프로그래밍 동아리 "하늘소"에 참여하였습니다. 
 
 certificate:
   show: false
