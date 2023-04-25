@@ -155,13 +155,14 @@ skill:
       item:
         - Site Reliability Engineering
         - Time-series Database
-        - Information retrieval
     - name: Advanced
       item:
+        - Information Retrieval
+        - Recommender System
         - Relational Database
-        - Recommender system
-    - name: Intermediate
+    - name: Tools
       item:
+        - Prometheus
         - Kafka
         - Redis
         - Elasticsearch
@@ -173,7 +174,7 @@ skill:
         - Kotlin
         - C
         - C++
-        - javascript
+        - Javascript
 
 education:
   show: true
@@ -188,7 +189,6 @@ education:
       degree: Master
       description: |
         - Completed Master's degree with a thesis titled "Personalized Task Recommendation Considering Various Factors in the Internet of Things Environments"
-        - Published research papers in international conferences, focusing on recommender systems, collaborative filtering, and IoT environments
 
 
     - institution: Kyungpook National University
