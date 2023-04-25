@@ -1,5 +1,5 @@
 basic:
-  name: Joo Sik, Son                      # name
+  name: 손주식                      # name
   title: Software Engineer           # job title
   avatar:
     show: false                       # show or hide avatar
@@ -9,7 +9,7 @@ contact:
   # meta
   location: Republic of Korea # location
   email: sonjoosik_at_gmail.com    # email address
-  website: sonjoosik.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  website: brunch.co.kr/@sonjoosik   # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
