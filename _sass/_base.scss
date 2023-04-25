@@ -19,12 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $theme-color;
-  text-decoration: none;
+  color: $text-second-color;
+  text-decoration: underline;
 
   &:hover,
   &:active {
-    text-decoration: underline;
+    color: $theme-color;
+    text-decoration: none;
   }
 }
 
